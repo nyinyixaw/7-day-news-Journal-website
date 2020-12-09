@@ -1,0 +1,142 @@
+#grid div{
+    border: 1px solid;
+}
+/* header section */
+/* font embet */
+@font-face{ font-family: 'rubik'; 
+    src: url('font/Rubik-Light.ttf');
+}
+#logo{
+    width: 121px;
+    height: 28px;
+}
+.nav-link{
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+nav ul li{
+    padding: 0px 10px 0px 10px !important;
+}
+#search input{
+    border: none !important;
+    background:  #F2F2F2;
+    width: 150px;
+    height: 35%;
+}
+#search span{
+    border: none !important;
+    background:  #F2F2F2;}
+
+body{
+    background: #F8F9FA; 
+    font-family: 'rubik' !important;}
+
+#nav-color{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=315, Color=#000000)";/*IE 8*/
+    -moz-box-shadow: -1px -1px 12px 15px rgba(0,0,0,0.1);/*FF 3.5+*/
+    -webkit-box-shadow: -1px -1px 12px 15px rgba(0,0,0,0.1);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: -1px -1px 12px 15px rgba(0,0,0,0.1);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=135, Color=#000000); /*IE 5.5-7*/
+}
+#drop-down{
+    position: static;
+}
+#floatright{
+    float: right!important;
+}
+ #sidebar{ 
+    width: 100%;
+    height: px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1050;
+    top: 0px;
+    background-color: aqua!important;
+ }
+ #sidenav{
+     height: 100%;
+     width: 70%;
+     background: #fff;
+     position: fixed;
+ }   
+ #sidebar li{
+     font-weight: bold; font-size: 15px; font-family: cursive; font-style: italic;
+ }    
+#dropdown-menu{
+    width: 100%;
+    border: none ;
+}
+
+ nav #list-group{
+    padding-left: 10rem !important; 
+}
+#list-group li a{
+    color: black;
+    line-height: 25px;
+}
+.list-group-item{
+    border: none;
+    border-right: 1px solid #C5C5C5;
+}
+#list-group li{
+    color: black;
+}
+#post-card{
+    font-size: 15px; font-weight: bold; color: pink !important;
+}
+.card h5{
+    padding: 5px 0px 0px 20px;
+}
+.card p{
+    padding: 5px 0px 0px 20px;
+}
+.text-mute i{
+    font-size: bold; color: #000000 !important;
+}
+small a{
+
+    color: #000000 !important;
+}
+.card{
+    margin-bottom: 5px !important; border: none;-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=191, Color=#000000)";/*IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=191, Color=#000000)";/*IE 8*/
+-moz-box-shadow: 5px -1px 24px 3px rgba(0,0,0,0.1);/*FF 3.5+*/
+-webkit-box-shadow: 5px -1px 24px 3px rgba(0,0,0,0.1);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 5px -1px 24px 3px rgba(0,0,0,0.1);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=135, Color=#000000); /*IE 5.5-7*/}
+#container{
+    margin-top:60px;
+}
+ @media(max-width:567px){ 
+    #container{
+        margin:0px;
+        padding: 0px;
+    }
+ } 
+.style{
+    padding: 20px 0px 10px 0px;
+}
+#left .list-group-item {
+    border: none;
+   background-color: seagree;
+   padding: 20px 10px 20px 10px;
+   border-bottom: 1px solid;
+   
+}
+#sednav{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=315, Color=#000000)";/*IE 8*/
+    -moz-box-shadow: -1px -1px 12px 15px rgba(0,0,0,0.1);/*FF 3.5+*/
+    -webkit-box-shadow: -1px -1px 12px 15px rgba(0,0,0,0.1);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: -1px -1px 12px 15px rgba(0,0,0,0.1);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=135, Color=#000000); /*IE 5.5-7*/
+    display: fixed;
+}
+#left .list-group{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=191, Color=#000000)";/*IE 8*/
+-moz-box-shadow: 5px -1px 24px 3px rgba(0,0,0,0.1);/*FF 3.5+*/
+-webkit-box-shadow: 5px -1px 24px 3px rgba(0,0,0,0.1);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 5px -1px 24px 3px rgba(0,0,0,0.1);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=135, Color=#000000); /*IE 5.5-7*/}
+
+/* */
+
